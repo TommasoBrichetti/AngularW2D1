@@ -1,0 +1,7 @@
+<aside>
+  <p>Hai Messo Like a {{x}} elementi</p>
+</aside>
+<!-- div -->
+<div>
+  <app-card *ngFor="let a of albums; index as i" [album]="a" [index]="i" (customEvent)="deleteFromArr($event)" (customEvent)="deleteFromApi($event)" (customEvent3)="ilikeit()"></app-card>
+</div>

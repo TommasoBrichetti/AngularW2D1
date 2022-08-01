@@ -1,0 +1,16 @@
+aside{
+  display: flex;
+  justify-content: center;
+}
+
+div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  app-card{
+    width: 20%;
+  height: 50vh;
+  margin: 2rem;
+  }
+}

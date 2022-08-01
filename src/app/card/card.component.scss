@@ -1,0 +1,47 @@
+div{
+  margin-bottom: 1rem;
+  border: 1px solid gray;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+
+  p{
+    margin: 0.5rem;
+  }
+
+  .btnArea{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: none;
+  }
+
+  .del{
+    color: white;
+    border: 1px solid transparent;
+    background: red;
+    border-radius: 3px;
+  }
+  .del:hover{
+    color: red;
+    border: 1px solid red;
+    background: white;
+  }
+  .like{
+    color: white;
+    border: 1px solid transparent;
+    background: green;
+    border-radius: 3px;
+  }
+  .like:hover{
+    color: green;
+    border: 1px solid green;
+    background: white;
+  }
+}
